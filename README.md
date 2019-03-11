@@ -7,12 +7,11 @@ CakPHP 3.7 - Table row ordering with drag &amp; drop + arrows with Ajax Post
   * Bootstrap (optional only for design)
 
 * Description: 
-   * This is a work around for cakePHP 3.7, because normally we cannot use ajax post request without form helper
-   * This example don't disable the security component, just create the hash on server side, then it pass the required token data to j
- JS
-   * everytime when you move row in table will be saved in backend without page refresh 
+   * This is a work around for **cakePHP 3.7**, because normally we cannot use **ajax post request without form helper**
+   * This example don't disable the security component, just create the hash on server side, then it pass the required token data to JS
+   * everytime when you move row in table will be **saved in backend without page refresh** 
    * i used helper for cut down the longer up/down link length but acctually it is optional, you can do directly in .ctp
-   * it let you use in dev/prod enviroment (when debug is on or off, because _token[debug] used only in dev enviroment)
+   * it let you use in dev/prod enviroment (when debug is on or off, because **_token[debug]** used only in dev enviroment)
    
  ----------------------------------------------
 
