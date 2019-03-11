@@ -5,6 +5,8 @@ CakPHP 3.7 - Table row ordering with drag &amp; drop + arrows with Ajax Post
   * jQuery
   * jQuery UI
   * Bootstrap (optional only for design)
+  
+* ***Note:** you can rewrite easily with pure JS, because jquery-ui also use drag & drop events, only this project was already with jquery, so a lil was shorter this way.*
 
 * Description: 
    * This is a work around for **cakePHP 3.7**, because normally we cannot use **ajax post request without form helper**
