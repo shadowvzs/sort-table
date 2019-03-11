@@ -12,7 +12,7 @@ CakPHP 3.7 - Table row ordering with drag &amp; drop + arrows with Ajax Post
  JS
    * everytime when you move row in table will be saved in backend without page refresh 
    * i used helper for cut down the longer up/down link length but acctually it is optional, you can do directly in .ctp
-
+   * it let you use in dev/prod enviroment (when debug is on or off, because _token[debug] used only in dev enviroment)
    
  ----------------------------------------------
 
@@ -37,7 +37,7 @@ CakPHP 3.7 - Table row ordering with drag &amp; drop + arrows with Ajax Post
           * then we compare the item old & new index in table
           * check the previous or after element (depend it was moved up or down)
       * ajax:
-          * add the required ajax data into request header and body together with data about changes (dragged item id, old & new ordering)
+          * add the required data into request header and body together with data about changes (dragged item id, old & new ordering)
           * update ordering between dragged element and the new neighbor element which is above or below than current element)
           * update the current element ordering
    
